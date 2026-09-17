@@ -1,0 +1,405 @@
+{
+  "name": "home",
+  "type": "page",
+  "url": "/home",
+  "params": {},
+  "variables": [
+    {
+      "name": "test",
+      "description": "",
+      "type": "property",
+      "value": "'foo'"
+    }
+  ],
+  "children": [
+    {
+      "name": "div",
+      "nodeName": "div",
+      "elementId": "",
+      "attributes": [
+        {
+          "property": "data-id",
+          "value": "FQgxNZ"
+        }
+      ],
+      "classList": [],
+      "conditionalClasses": [],
+      "conditionalStyles": [],
+      "contentType": "text",
+      "displayExpression": "",
+      "events": {},
+      "iterate": {
+        "array": "",
+        "variable": "",
+        "trackByIndex": false
+      },
+      "styles": [
+        {
+          "enabled": true,
+          "property": "height",
+          "value": "100% !important"
+        },
+        {
+          "enabled": true,
+          "property": "width",
+          "value": "100% !important"
+        }
+      ],
+      "layout": {
+        "container": {
+          "type": "box",
+          "orientation": "column",
+          "crossAxisAlignment": "stretch",
+          "items": []
+        }
+      },
+      "children": [
+        {
+          "name": "div",
+          "nodeName": "div",
+          "elementId": "",
+          "attributes": [
+            {
+              "property": "data-id",
+              "value": "46oaHu"
+            }
+          ],
+          "classList": [],
+          "conditionalClasses": [],
+          "conditionalStyles": [],
+          "contentType": "text",
+          "displayExpression": "",
+          "events": {},
+          "iterate": {
+            "array": "",
+            "variable": "",
+            "trackByIndex": false
+          },
+          "styles": [],
+          "layout": {
+            "cell": {
+              "type": "box-item",
+              "growFactor": 1,
+              "shrinkFactor": 1,
+              "mainSize": "100%"
+            }
+          },
+          "children": [
+            {
+              "name": "div",
+              "nodeName": "div",
+              "elementId": "",
+              "attributes": [
+                {
+                  "property": "data-id",
+                  "value": "8Nqf_l"
+                }
+              ],
+              "classList": [],
+              "conditionalClasses": [],
+              "conditionalStyles": [],
+              "contentType": "text",
+              "displayExpression": "",
+              "events": {},
+              "iterate": {
+                "array": "",
+                "variable": "",
+                "trackByIndex": false
+              },
+              "styles": [
+                {
+                  "enabled": true,
+                  "property": "height",
+                  "value": "100% !important"
+                },
+                {
+                  "enabled": true,
+                  "property": "width",
+                  "value": "100% !important"
+                }
+              ],
+              "layout": {
+                "container": {
+                  "type": "box",
+                  "orientation": "row",
+                  "crossAxisAlignment": "stretch",
+                  "items": []
+                }
+              },
+              "children": [
+                {
+                  "name": "div",
+                  "nodeName": "div",
+                  "elementId": "",
+                  "attributes": [
+                    {
+                      "property": "data-id",
+                      "value": "B6BGTG"
+                    }
+                  ],
+                  "classList": [],
+                  "conditionalClasses": [],
+                  "conditionalStyles": [],
+                  "contentType": "text",
+                  "displayExpression": "",
+                  "events": {},
+                  "iterate": {
+                    "array": "",
+                    "variable": "",
+                    "trackByIndex": false
+                  },
+                  "styles": [],
+                  "layout": {
+                    "cell": {
+                      "type": "box-item",
+                      "growFactor": 1,
+                      "shrinkFactor": 1,
+                      "mainSize": "100%"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "h1",
+                      "nodeName": "h1",
+                      "elementId": "",
+                      "attributes": [
+                        {
+                          "property": "data-id",
+                          "value": "OGadSO"
+                        }
+                      ],
+                      "classList": [],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [
+                        {
+                          "name": "text",
+                          "nodeName": "text",
+                          "textContent": "page",
+                          "evaluate": false
+                        }
+                      ],
+                      "comments": ""
+                    },
+                    {
+                      "name": "Badge",
+                      "nodeName": "bln-badge",
+                      "elementId": "",
+                      "attributes": [
+                        {
+                          "property": "data-id",
+                          "value": "2msNN5"
+                        },
+                        {
+                          "property": "core",
+                          "value": ""
+                        }
+                      ],
+                      "classList": [],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [],
+                      "comments": "",
+                      "type": "core-component",
+                      "expressions": [
+                        {
+                          "expression": "$ctrl.test",
+                          "to": "text"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "h2",
+                      "nodeName": "h2",
+                      "elementId": "",
+                      "attributes": [
+                        {
+                          "property": "data-id",
+                          "value": "C9KPNG"
+                        }
+                      ],
+                      "classList": [],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [
+                        {
+                          "name": "text",
+                          "nodeName": "text",
+                          "textContent": "$ctrl.test",
+                          "evaluate": true
+                        }
+                      ],
+                      "comments": ""
+                    }
+                  ],
+                  "comments": ""
+                },
+                {
+                  "name": "div",
+                  "nodeName": "div",
+                  "elementId": "",
+                  "attributes": [
+                    {
+                      "property": "data-id",
+                      "value": "Tc6Q3l"
+                    }
+                  ],
+                  "classList": [],
+                  "conditionalClasses": [],
+                  "conditionalStyles": [],
+                  "contentType": "text",
+                  "displayExpression": "",
+                  "events": {},
+                  "iterate": {
+                    "array": "",
+                    "variable": "",
+                    "trackByIndex": false
+                  },
+                  "styles": [],
+                  "layout": {
+                    "cell": {
+                      "type": "box-item",
+                      "growFactor": 1,
+                      "shrinkFactor": 1,
+                      "mainSize": "100%"
+                    }
+                  },
+                  "children": [
+                    {
+                      "name": "comp",
+                      "nodeName": "comp",
+                      "elementId": "",
+                      "attributes": [
+                        {
+                          "property": "data-id",
+                          "value": "HIXkAR"
+                        }
+                      ],
+                      "classList": [],
+                      "conditionalClasses": [],
+                      "conditionalStyles": [],
+                      "contentType": "text",
+                      "displayExpression": "",
+                      "events": {},
+                      "iterate": {
+                        "array": "",
+                        "variable": "",
+                        "trackByIndex": false
+                      },
+                      "styles": [],
+                      "children": [],
+                      "comments": "",
+                      "type": "custom-component",
+                      "ownerId": "6aab6de0aadc8c10a605fdc1",
+                      "ownerType": "app",
+                      "expressions": []
+                    }
+                  ],
+                  "comments": ""
+                }
+              ],
+              "comments": ""
+            }
+          ],
+          "comments": ""
+        },
+        {
+          "name": "div",
+          "nodeName": "div",
+          "elementId": "",
+          "attributes": [
+            {
+              "property": "data-id",
+              "value": "jUGWFz"
+            }
+          ],
+          "classList": [],
+          "conditionalClasses": [],
+          "conditionalStyles": [],
+          "contentType": "text",
+          "displayExpression": "",
+          "events": {},
+          "iterate": {
+            "array": "",
+            "variable": "",
+            "trackByIndex": false
+          },
+          "styles": [],
+          "layout": {
+            "cell": {
+              "type": "box-item",
+              "growFactor": 1,
+              "shrinkFactor": 1,
+              "mainSize": "100%"
+            }
+          },
+          "children": [],
+          "comments": ""
+        },
+        {
+          "name": "aa",
+          "nodeName": "aa",
+          "elementId": "",
+          "attributes": [
+            {
+              "property": "data-id",
+              "value": "50FwQH"
+            }
+          ],
+          "classList": [],
+          "conditionalClasses": [],
+          "conditionalStyles": [],
+          "contentType": "text",
+          "displayExpression": "",
+          "events": {},
+          "iterate": {
+            "array": "",
+            "variable": "",
+            "trackByIndex": false
+          },
+          "styles": [],
+          "layout": {
+            "cell": {
+              "type": "box-item",
+              "growFactor": 1,
+              "shrinkFactor": 1,
+              "mainSize": "100%"
+            }
+          },
+          "children": [],
+          "comments": "",
+          "type": "custom-component",
+          "expressions": []
+        }
+      ],
+      "comments": ""
+    }
+  ]
+}

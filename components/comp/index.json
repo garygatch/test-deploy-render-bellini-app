@@ -1,0 +1,62 @@
+{
+  "type": "custom-component",
+  "name": "comp",
+  "nodeName": "comp",
+  "children": [
+    {
+      "name": "h1",
+      "classList": [],
+      "children": [
+        {
+          "name": "text",
+          "textContent": "app sub component",
+          "evaluate": false
+        }
+      ]
+    },
+    {
+      "name": "Chip List",
+      "nodeName": "bln-chip-list",
+      "attributes": [
+        {
+          "property": "core",
+          "value": ""
+        }
+      ],
+      "classList": [],
+      "children": [],
+      "type": "core-component",
+      "expressions": [
+        {
+          "expression": "$ctrl.test",
+          "to": "label"
+        }
+      ],
+      "formControl": {
+        "modelName": "values"
+      }
+    },
+    {
+      "name": "h2",
+      "classList": [],
+      "children": [
+        {
+          "name": "text",
+          "textContent": "$ctrl.test",
+          "evaluate": true
+        }
+      ]
+    }
+  ],
+  "variables": [
+    {
+      "name": "test",
+      "description": "",
+      "type": "property",
+      "value": "'foo'"
+    }
+  ],
+  "bindings": [],
+  "modules": [],
+  "styles": []
+}
